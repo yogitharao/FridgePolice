@@ -1,0 +1,58 @@
+.app {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.subtitle {
+  margin-top: 0;
+}
+
+.panel {
+  background: #ffffff;
+  border: 1px solid #d8d8d8;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 12px;
+}
+
+.card {
+  border: 1px solid #ececec;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fafafa;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.item-id {
+  font-size: 0.8rem;
+  color: #555;
+}
+
+button {
+  border: 1px solid #b5b5b5;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+  padding: 6px 10px;
+}
+
+button:hover {
+  background: #f0f0f0;
+}
+
+.inline-button {
+  margin-left: 8px;
+}
